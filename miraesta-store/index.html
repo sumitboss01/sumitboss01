@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIRAESTA | Premium Streetwear - Born in the Concrete Jungle</title>
+    <meta name="description" content="MIRAESTA - Premium streetwear for midnight wanderers, urban architects, and creative rebels. High-end structural streetwear inspired by urban noir aesthetics.">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <div class="announcement-ticker">
+            <span>Welcome to our store</span>
+            <span>•</span>
+            <span>Free Shipping</span>
+            <span>•</span>
+            <span>Buy 2 Get 1 Free</span>
+            <span>•</span>
+            <span>Coupon Code: MRSBUY2GET1</span>
+            <span>•</span>
+            <span>Welcome to our store</span>
+            <span>•</span>
+            <span>Free Shipping</span>
+            <span>•</span>
+            <span>Buy 2 Get 1 Free</span>
+            <span>•</span>
+            <span>Coupon Code: MRSBUY2GET1</span>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-left">
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <a href="#" class="logo">MIRAESTA</a>
+            </div>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/men.html">Men</a></li>
+                <li><a href="pages/women.html">Women</a></li>
+                <li><a href="pages/about.html">About Us</a></li>
+            </ul>
+            
+            <div class="nav-right">
+                <button class="search-btn" id="searchBtn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                </button>
+                <a href="pages/rewards.html" class="rewards-link">Rewards</a>
+                <button class="cart-btn" id="cartBtn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <path d="M16 10a4 4 0 0 1-8 0"></path>
+                    </svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu-overlay" id="mobileMenuOverlay">
+        <div class="mobile-menu-content">
+            <button class="close-menu-btn" id="closeMenuBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <ul class="mobile-nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="pages/men.html">Men</a></li>
+                <li><a href="pages/women.html">Women</a></li>
+                <li><a href="pages/about.html">About Us</a></li>
+                <li><a href="pages/rewards.html">Rewards</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">BORN IN THE</span>
+                <span class="title-line highlight">CONCRETE JUNGLE</span>
+            </h1>
+            <p class="hero-subtitle">For midnight wanderers, urban architects, and creative rebels</p>
+            <div class="hero-cta">
+                <a href="pages/men.html" class="btn btn-primary">Shop Men</a>
+                <a href="pages/women.html" class="btn btn-secondary">Shop Women</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brand Story Section -->
+    <section class="brand-story">
+        <div class="container">
+            <div class="story-content">
+                <h2 class="section-title">BEYOND THE FABRIC</h2>
+                <p class="story-text">
+                    Miraesta was founded at the intersection of cinematic noir and high-performance urbanism. 
+                    Our mission is to redefine the "streetwear" label, elevating it from casual apparel to 
+                    meticulously engineered luxury. We cater to the midnight visionaries and the cultural 
+                    architects—those who demand a wardrobe that is as resilient as the city and as refined 
+                    as the runway.
+                </p>
+                <a href="pages/about.html" class="btn btn-outline">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Collections -->
+    <section class="collections">
+        <div class="container">
+            <h2 class="section-title">SHOP BY COLLECTION</h2>
+            <div class="collections-grid">
+                <a href="pages/men.html" class="collection-card">
+                    <div class="collection-image men-collection">
+                        <div class="collection-overlay">
+                            <h3>Men Topwear</h3>
+                            <span class="collection-link">Explore →</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="pages/women.html" class="collection-card">
+                    <div class="collection-image women-collection">
+                        <div class="collection-overlay">
+                            <h3>Women Topwear</h3>
+                            <span class="collection-link">Explore →</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="pages/men.html" class="collection-card">
+                    <div class="collection-image men-bottom-collection">
+                        <div class="collection-overlay">
+                            <h3>Men Bottomwear</h3>
+                            <span class="collection-link">Explore →</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="pages/women.html" class="collection-card">
+                    <div class="collection-image women-bottom-collection">
+                        <div class="collection-overlay">
+                            <h3>Women Bottomwear</h3>
+                            <span class="collection-link">Explore →</span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bestsellers Section -->
+    <section class="bestsellers">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">BESTSELLERS</h2>
+                <p class="section-subtitle">Discover the bestsellers that have captured the hearts of our customers</p>
+            </div>
+            <div class="products-grid" id="bestsellersGrid">
+                <!-- Products will be loaded dynamically -->
+            </div>
+            <div class="shop-all-container">
+                <a href="pages/men.html" class="btn btn-primary">Shop All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Drop Spotlight -->
+    <section class="drop-spotlight">
+        <div class="container">
+            <div class="spotlight-content">
+                <span class="drop-badge">NEW DROP</span>
+                <h2 class="spotlight-title">THE MIRAE COLLECTION</h2>
+                <p class="spotlight-text">Engineered for the urban landscape. Premium heavyweight fabrics meet architectural design.</p>
+                <a href="pages/men.html" class="btn btn-primary">Shop The Drop</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram UGC Feed -->
+    <section class="instagram-feed">
+        <div class="container">
+            <h2 class="section-title">@MIRAESTA.OFFICIAL</h2>
+            <p class="section-subtitle">Tag your fits with #MiraestaMovement</p>
+            <div class="instagram-grid">
+                <div class="instagram-item">
+                    <div class="instagram-placeholder">UGC 1</div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder">UGC 2</div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder">UGC 3</div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder">UGC 4</div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder">UGC 5</div>
+                </div>
+                <div class="instagram-item">
+                    <div class="instagram-placeholder">UGC 6</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2 class="newsletter-title">JOIN THE COLLECTIVE</h2>
+                <p class="newsletter-text">Get exclusive deals and early access to new products.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Enter your email" required class="email-input">
+                    <button type="submit" class="btn btn-primary">Sign Up</button>
+                </form>
+                <p class="newsletter-disclaimer">By subscribing, you agree to our Privacy Policy and consent to receive updates.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="footer-logo">MIRAESTA</h3>
+                    <p class="footer-tagline">Born in the heart of the concrete jungle. A movement for the midnight wanderer, the urban architect, and the creative rebel.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">Facebook</a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="pages/men.html">Men</a></li>
+                        <li><a href="pages/women.html">Women</a></li>
+                        <li><a href="#">New Arrivals</a></li>
+                        <li><a href="#">Bestsellers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="pages/about.html">Our Story</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="pages/terms.html">Terms & Conditions</a></li>
+                        <li><a href="pages/returns.html">Return & Refund Policy</a></li>
+                        <li><a href="pages/privacy.html">Privacy Policy</a></li>
+                        <li><a href="pages/contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 MIRAESTA. All rights reserved.</p>
+                <div class="payment-methods">
+                    <span>UPI</span>
+                    <span>Cards</span>
+                    <span>Net Banking</span>
+                    <span>COD</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Drawer -->
+    <div class="cart-drawer" id="cartDrawer">
+        <div class="cart-overlay" id="cartOverlay"></div>
+        <div class="cart-content">
+            <div class="cart-header">
+                <h3>Your Cart (<span id="cartItemCount">0</span>)</h3>
+                <button class="close-cart-btn" id="closeCartBtn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <div class="empty-cart">
+                    <p>Your cart is empty</p>
+                    <a href="pages/men.html" class="btn btn-primary">Start Shopping</a>
+                </div>
+            </div>
+            <div class="cart-footer" id="cartFooter" style="display: none;">
+                <div class="cart-total">
+                    <span>Total</span>
+                    <span id="cartTotal">₹0</span>
+                </div>
+                <button class="btn btn-primary checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="searchModal">
+        <div class="search-overlay" id="searchOverlay"></div>
+        <div class="search-content">
+            <button class="close-search-btn" id="closeSearchBtn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="18" y1="6" x2="6" y2="18"></line>
+                    <line x1="6" y1="6" x2="18" y2="18"></line>
+                </svg>
+            </button>
+            <div class="search-input-wrapper">
+                <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <path d="m21 21-4.35-4.35"></path>
+                </svg>
+                <input type="text" placeholder="Search products..." class="search-input" id="searchInput">
+            </div>
+            <div class="search-results" id="searchResults">
+                <p class="search-placeholder">Type to search products...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

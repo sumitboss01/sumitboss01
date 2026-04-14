@@ -1,0 +1,1 @@
+Nothing needs to be added to .gitignore since only source files (.css, .html, .js) were added without any build artifacts, dependencies, or temporary files.
